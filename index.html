@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            body{
+                background-image: url("mars.gif");
+                background-position: center;
+                background-size: cover;
+            }
+            #myCanvas
+            {
+                border-width:10px;
+                background-color: white; 
+                border-style:ridge;
+            }
+            
+            h1,h4
+            {
+                color: white !important;
+            }
+            </style>	
+        
+    </head>
+    <body>
+            <center>
+            <h1>Moving Rover On Mars</h1>
+            <h1>Game Status :<span id = "game_status"></span></h1>
+            <canvas id = "myCanvas" width = "800" height="600"></canvas>
+            <h4>
+                <b class = "text-danger">NOTE : </b> IF ROVER IS NOT VISIABLE PRESS ANY ARROW KEY
+            </h4>
+            </center>
+            <script src="main.js">
+                </script>
+</html>
